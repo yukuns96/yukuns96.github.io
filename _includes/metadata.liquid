@@ -84,7 +84,7 @@
     {% capture link %}https://orcid.org/{{ site.orcid_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
-  {% if site.scholar_userid %}
+  {% if site.data.socials.scholar_userid %}
     {% capture link %}https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
