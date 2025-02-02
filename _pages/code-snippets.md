@@ -18,7 +18,7 @@ horizontal: false
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_snippets = site.code_snippets | where: "category", category %}
-  {% assign sorted_snippets = categorized_snippets | sort: "importance" %}
+  {% assign sorted_snippets = site.data.code_snippets | where_exp: "item", "item.importance" | sort: "importance" %}
 
   <!-- Generate cards for each code snippet -->
 
@@ -44,7 +44,7 @@ horizontal: false
 
 <!-- Display code snippets without categories -->
 
-{% assign sorted_snippets = site.code_snippets | sort: "importance" %}
+{% assign sorted_snippets = site.data.code_snippets | where_exp: "item", "item.importance" | sort: "importance" %}
 
   <!-- Generate cards for each code snippet -->
 
