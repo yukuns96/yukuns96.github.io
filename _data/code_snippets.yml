@@ -10,7 +10,7 @@
 
 - title: ij flow viz
   description: flow visualization
-  file: assets/code/script.js
+  file: testjs.js
 # - title: Example Python Script
 #   description: A simple Python script for demonstration.
 #   file: assets/code/example.py

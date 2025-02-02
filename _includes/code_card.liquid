@@ -1,6 +1,9 @@
 <div class="code-card">
   <h3>{{ snippet.title }}</h3>
   <p>{{ snippet.description }}</p>
-  <pre><code>{% capture code_content %}{% include_relative {{ snippet.file }} %}{% endcapture %}{{ code_content }}</code></pre>
-  <a href="{{ site.baseurl }}/{{ snippet.file }}" download>Download Code</a>
+  {% capture code_content %}
+    {% include code_snippets/{{ snippet.file }} %}
+  {% endcapture %}
+  <pre><code>{{ code_content }}</code></pre>
+  <a href="{{ site.baseurl }}/assets/code/{{ snippet.file }}" download>Download Code</a>
 </div>
