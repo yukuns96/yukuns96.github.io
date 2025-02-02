@@ -1,16 +1,16 @@
-- title: "Hello World in Python"
-  language: "python"
-  code: |
-    def greet(name):
-        print(f"Hello, {name}!")
-
-    greet("Yukun")
-  category: "Python"
-  importance: 1
-
 - title: ij flow viz
   description: flow visualization
   file: testjs.js
+# - title: "Hello World in Python"
+#   language: "python"
+#   code: |
+#     def greet(name):
+#         print(f"Hello, {name}!")
+
+#     greet("Yukun")
+#   category: "Python"
+#   importance: 1
+
 # - title: Example Python Script
 #   description: A simple Python script for demonstration.
 #   file: assets/code/example.py
