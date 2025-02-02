@@ -25,17 +25,17 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A collection of some codes",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-code-snippets",
+          title: "Code Snippets",
+          description: "A collection of useful code snippets.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/code-snippets/";
           },
         },{id: "nav-repositories",
           title: "repositories",
