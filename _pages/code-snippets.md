@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Code Snippets
+title: Code
 permalink: /code-snippets/
 description: A collection of useful code snippets.
 nav: true
