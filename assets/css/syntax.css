@@ -1,22 +1,55 @@
 .highlight {
-  background-color: #f8f9fa;
-  padding: 12px;
-  border-radius: 8px;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
   overflow-x: auto;
-  font-family: "Fira Code", monospace;
+  border-radius: 5px;
   font-size: 14px;
+  line-height: 1.5;
 }
 
-.highlight pre {
-  margin: 0;
+.highlight table {
+  width: 100%;
+  border-spacing: 0;
 }
 
+.highlight td {
+  padding: 0;
+}
+
+.highlight .gutter {
+  background-color: #f0f0f0;
+  color: #888;
+  padding: 0 10px;
+  text-align: right;
+  vertical-align: top;
+  user-select: none;
+}
+
+.highlight .code {
+  padding-left: 15px;
+}
+
+.highlight .line {
+  display: block;
+  white-space: pre-wrap;
+}
+
+/* Syntax Colors */
 .highlight .k {
-  color: #007acc;
-} /* keywords */
+  color: #0074d9;
+  font-weight: bold;
+} /* Keywords */
 .highlight .s {
-  color: #d6336c;
-} /* strings */
+  color: #2ecc40;
+} /* Strings */
 .highlight .c {
-  color: #6c757d;
-} /* comments */
+  color: #aaaaaa;
+  font-style: italic;
+} /* Comments */
+.highlight .n {
+  color: #ff851b;
+} /* Numbers */
+.highlight .nf {
+  color: #b10dc9;
+} /* Functions */
