@@ -21,6 +21,12 @@ nav_order: 4
   </div>
 {% endfor %}
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Prism.highlightAll();
+  });
+</script>
+
 <!-- {% for snippet in site.data.code_snippets %}
 
 <div class="code-snippet">
