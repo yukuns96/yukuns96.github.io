@@ -59,7 +59,7 @@ bib_search: true
 max_width: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
-# run again1
+
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
@@ -161,17 +161,15 @@ collections:
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-# kramdown:
-#   input: GFM
-#   syntax_highlighter: rouge
-#   syntax_highlighter_opts:
-#     css_class: "highlight"
-#     line_numbers: true
-#     span:
-#       line_numbers: false
-#     block:
-#       line_numbers: true
-#       start_line: 1
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
 
 # Includes & excludes
 include: ["_pages", "_scripts"]
@@ -268,8 +266,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Sun]
-  first_name: [Yukun]
+  last_name: [Einstein]
+  first_name: [Albert, A.]
 
   style: apa
   locale: en

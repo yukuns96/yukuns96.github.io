@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-{% for snippet in site.data.code_snippets %}
+<!-- {% for snippet in site.data.code_snippets %}
 
   <div class="code-snippet">
     <h3>{{ snippet.title }}</h3>
@@ -25,7 +25,7 @@ nav_order: 4
   document.addEventListener("DOMContentLoaded", function () {
     Prism.highlightAll();
   });
-</script>
+</script> -->
 
 <!-- {% for snippet in site.data.code_snippets %}
 
