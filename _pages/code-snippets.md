@@ -34,6 +34,11 @@ You can find the code for this project on [GitHub](https://github.com/your-repo)
 git clone https://github.com/your-repo.git
 ```
 
+```python
+if name==main:
+    i+=1
+```
+
 ## Section 4: Conclusion
 
 This page is a simple example to demonstrate Markdown usage in Jekyll. You can expand it as needed to fit your project's requirements.
