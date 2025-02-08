@@ -79,3 +79,16 @@ Here's the code for the last row of images above:
 ```
 
 {% endraw %}
+
+Here is some bash commands:
+
+{% raw %}
+
+```bash
+mkdir -p build
+../bootstrap > log_bootstrap &
+make > log_make &
+sudo make install
+```
+
+{% endraw %}
