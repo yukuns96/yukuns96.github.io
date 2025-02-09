@@ -35,7 +35,7 @@ ninja.data = [{
           description: "AAAAA collection of useful code snippets.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/code-snippets/";
+            window.location.href = "/code/";
           },
         },{id: "nav-repositories",
           title: "repositories",
