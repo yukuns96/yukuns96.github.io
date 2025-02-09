@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 1
-permalink: /code/code1/
+title: Code 1
+permalink: /code1/
 ---
 
 # Continuous time-lapsed color coder
