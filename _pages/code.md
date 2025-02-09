@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-- [Image processing](code/code1)
+- [Image processing](/code/code1/)
 
 # Welcome to the Simple Page
 
