@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code
-permalink: /code-snippets/
+permalink: /code/
 description: AAAAA collection of useful code snippets.
 nav: true
 nav_order: 4
