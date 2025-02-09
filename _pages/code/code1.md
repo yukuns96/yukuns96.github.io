@@ -4,12 +4,15 @@ title: Project 1
 permalink: /code/code1/
 ---
 
-# Project 1
+# Continuous time-lapsed color coder
 
-Description of Project 1.
+A C++ package
 
-![Project 1 Image](/assets/img/project1.jpg)
+<!-- Description of Project 1. -->
 
+<!-- ![Project 1 Image](/assets/img/project1.jpg) -->
+
+You need to install opencv package.
 Code:
 
 ```python
